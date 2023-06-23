@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="morebooks.css">
+    <script>
+    <script src="https://kit.fontawesome.com/1f441bb383.js" crossorigin="anonymous"/>
+    </script>
+    <title>More Books</title>
+    
+</head>
+<body>
+    <form class="example" action="action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      <header>
+<img src="images/yibm library.jpg"/>
+      <div class="navbar">
+        <a href="YBM library.html">Home</a>
+        <a href="signing1.html"> Login</a>
+        <a href="class=current">More Books</a>
+        <a href="About Us.html">About us</a>
+      </div>
+      </nav>
+  
+     <aside>
+<figcaption>
+<h2>Book Of The Day</h2>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="images/21 secrets of sucess.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/if your not the fast.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="images/crush it.jpg" style="width:100%">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</div>
+
+</aside>
+<section id="content">
+<h1>GET MORE BOOKS FROM OUR TELEGRAM ACCOUNT</h1>
+</section>
+<section id="main">
+<div class="row">
+  <div class="column">
+  <h1>Novels</h1>
+  <a href="./pdf/ai market.pdf" download><img src="images/ai market.jpg"></a>
+  <a href="./pdf/" download><img src="images/-6339310710751864943_120.jpg"></a>
+  <a href="./pdf/" download><img src="images/-6298597946953935767_121.jpg"></a>
+  <a href="./pdf/" download><img src="images/-6278544160533359263_121.jpg"></a>
+  <a href="./pdf/" download><img src="images/-6248903349978114739_121.jpg"></a>
+  <a href="./pdf/" download><img src="images/ai market.jpg"></a> 
+  <a href="./pdf/" download><img src="images/-6248903349978114739_121.jpg"></a>
+  <a href="./pdf/" download><img src="images/entrepreneur mind.jpg"></a>
+  </div>
+  <div class="column">
+  <h2>Business Books</h2>
+  <a href="./pdf/" download><img src="images/book builds wealth.jpg"></a>
+  <a href="./pdf/" download><img src="images/ai market.jpg"></a>
+  <a href="./pdf/" download><img src="images/internet money.jpg"></a>
+  <a href="./pdf/" download><img src="images/i can read you like a book.jpg"></a>
+  <a href="./pdf/" download><img src="images/business world.jpg"></a>
+  <a href="./pdf/" download><img src="images/-6248903349978114739_121.jpg"></a>
+  </div>
+  <div class="column">
+  <h5>African Motivational Novels</h5>
+  <a href="./pdf/" download><img src="images/kiu.jpg"></a>
+  <a href="./pdf/" download><img src="images/kuli.jpg"></a>
+  <a href="./pdf/" download><img src="images/mzee ruksa.jpg"></a>
+  <a href="./pdf/" download><img src="images/haini.jpg"></a>
+  <a href="./pdf/" download><img src="images/my life my purpose.jpg"></a>
+  <a href="./pdf/" download><img src="images/kufikirika.jpg"></a>
+  </div>
+</div>
+<article>
+  <p>If you need support check<a href="mailto:info@smartlibrary.com"><img src="images/mail icon.png" style="width: 50px; height: 40px;"></a></p></article>
+<h2>Contact</h2>
+<i class="fa fa-telegram" aria-hidden="true" style="color: black;"></i>
+<i class="fa fa-envelope"></i>
+<i class="fa fa-phone"></i>
+<i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+
+<section id="footer">
+  &copy; 2023, YIBM Library
+  <br>All trademarks and registered trademarks appearing on this site are property of their respective owners
+<br>info@yibmlibrary.com</br>
+<br>Arusha Tanzania</br>
+</section>
+</body>
+</html>
